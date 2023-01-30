@@ -6,6 +6,7 @@ input.onGesture(Gesture.Shake, function () {
     PA = 0
     OLED.writeStringNewLine("Want to play a game?")
     basic.pause(2000)
+    Update_Score()
 })
 function Update_Score () {
     OLED.clear()
@@ -28,3 +29,4 @@ PB = 0
 PA = 0
 OLED.writeStringNewLine("Want to play a game?")
 basic.pause(2000)
+Update_Score()
